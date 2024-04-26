@@ -1,0 +1,60 @@
+<html>
+    <title>
+        Form
+    </title>
+    <head>
+
+    </head>
+    <body>
+        <form method="POST" action="process">
+            <p>
+                UserName : <br>
+                <input type="text" name ="userName" placeholder="Enter your name " size="15" maxlength="25">
+            </p>
+            <p>
+                Passsword : <br>
+                <input type="password" name ="pwd" placeholder="Enter your Password">
+            </p>
+            <p>
+                <input type="submit" value="send">
+
+            </p>
+            
+            
+        </form>
+
+       
+
+        <h3>Contact Form </h3>
+        <p>
+            <label>Name:</label> <br>
+            <input type="text" name="userName"><br>
+            <label> Email:</label> <br>
+            <input type="text" name="email"><br>
+            <LABEL> Subject:</LABEL><br>
+            <input type="text" name="subject"><br>
+            Is this is a:
+            <input type="radio" name="request" value="sales"> Sales Request?
+            <input type="radio" name="request" value="support"> Support Request?
+            Message:<br>
+            <textarea  name ="comments" id="" cols="40" rows="10" placeholder="Enter your message"></textarea>
+            <br>
+
+            <p>
+                I want to learn First :<br>
+            <input type="radio" name="request" value="html" checked>HTML
+            <input type="radio" name="request" value="css"> css
+            <input type="radio" name="request" value="js"> js
+            </p>
+
+            <p>
+                Selct your Hobbies : 
+                <input type="checkbox" name="hobbies[]" value="Photography">Photography
+                <input type="checkbox" name="hobbies[]" value="Drawing">Drawing
+                <input type="checkbox" name="hobbies[]" value="Gaming">Gaming
+                <input type="checkbox" name="hobbies[]" value="Swimming">Swimming
+            </p>
+            <input type="submit" >
+        </p>
+    </body>
+</html>
